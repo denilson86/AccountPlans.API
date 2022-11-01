@@ -39,7 +39,7 @@ namespace AccountPlans.API.Controllers
         /// <response code="200">Em casos de successo</response>
         /// <response code="400">Em casos de falha na requisição</response>
         /// <response code="500">Em casos erros inesperados</response>
-        [HttpPost]
+        [HttpDelete]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
